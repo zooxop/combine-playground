@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RootView.swift
 //  CombinePlayground
 //
 //  Created by 문철현 on 1/31/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RootView: View {
   var body: some View {
     VStack {
       Image(systemName: "globe")
@@ -19,6 +19,8 @@ struct ContentView: View {
   }
 }
 
+#if DEBUG
 #Preview {
-  ContentView()
+  RootView()
 }
+#endif

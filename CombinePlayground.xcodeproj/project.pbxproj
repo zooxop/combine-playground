@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DB8900762B6A106C003EDA0B /* CombinePlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900752B6A106C003EDA0B /* CombinePlaygroundApp.swift */; };
-		DB8900782B6A106C003EDA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900772B6A106C003EDA0B /* ContentView.swift */; };
+		DB8900782B6A106C003EDA0B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900772B6A106C003EDA0B /* RootView.swift */; };
 		DB89007A2B6A106D003EDA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8900792B6A106D003EDA0B /* Assets.xcassets */; };
 		DB89007D2B6A106D003EDA0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB89007C2B6A106D003EDA0B /* Preview Assets.xcassets */; };
 		DB8900882B6A106D003EDA0B /* CombinePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900872B6A106D003EDA0B /* CombinePlaygroundTests.swift */; };
+		DB8900A12B6AA0EB003EDA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900A02B6AA0EB003EDA0B /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +28,13 @@
 /* Begin PBXFileReference section */
 		DB8900722B6A106C003EDA0B /* CombinePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombinePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8900752B6A106C003EDA0B /* CombinePlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePlaygroundApp.swift; sourceTree = "<group>"; };
-		DB8900772B6A106C003EDA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB8900772B6A106C003EDA0B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		DB8900792B6A106D003EDA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB89007C2B6A106D003EDA0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB89007E2B6A106D003EDA0B /* CombinePlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombinePlayground.entitlements; sourceTree = "<group>"; };
 		DB8900832B6A106D003EDA0B /* CombinePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombinePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8900872B6A106D003EDA0B /* CombinePlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePlaygroundTests.swift; sourceTree = "<group>"; };
+		DB8900A02B6AA0EB003EDA0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,9 @@
 		DB8900742B6A106C003EDA0B /* CombinePlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DB8900A02B6AA0EB003EDA0B /* AppDelegate.swift */,
 				DB8900752B6A106C003EDA0B /* CombinePlaygroundApp.swift */,
-				DB8900772B6A106C003EDA0B /* ContentView.swift */,
+				DB8900772B6A106C003EDA0B /* RootView.swift */,
 				DB8900792B6A106D003EDA0B /* Assets.xcassets */,
 				DB89007E2B6A106D003EDA0B /* CombinePlayground.entitlements */,
 				DB89007B2B6A106D003EDA0B /* Preview Content */,
@@ -199,7 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8900782B6A106C003EDA0B /* ContentView.swift in Sources */,
+				DB8900A12B6AA0EB003EDA0B /* AppDelegate.swift in Sources */,
+				DB8900782B6A106C003EDA0B /* RootView.swift in Sources */,
 				DB8900762B6A106C003EDA0B /* CombinePlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

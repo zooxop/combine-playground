@@ -13,6 +13,8 @@
 		DB89007D2B6A106D003EDA0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB89007C2B6A106D003EDA0B /* Preview Assets.xcassets */; };
 		DB8900882B6A106D003EDA0B /* CombinePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900872B6A106D003EDA0B /* CombinePlaygroundTests.swift */; };
 		DB8900A12B6AA0EB003EDA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8900A02B6AA0EB003EDA0B /* AppDelegate.swift */; };
+		DBF90C792B8421D1009F233C /* MainSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF90C782B8421D1009F233C /* MainSubject.swift */; };
+		DBF90C7B2B8425D9009F233C /* SubjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF90C7A2B8425D9009F233C /* SubjectDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		DB8900832B6A106D003EDA0B /* CombinePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombinePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8900872B6A106D003EDA0B /* CombinePlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePlaygroundTests.swift; sourceTree = "<group>"; };
 		DB8900A02B6AA0EB003EDA0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBF90C782B8421D1009F233C /* MainSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSubject.swift; sourceTree = "<group>"; };
+		DBF90C7A2B8425D9009F233C /* SubjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,8 @@
 			children = (
 				DB8900A02B6AA0EB003EDA0B /* AppDelegate.swift */,
 				DB8900752B6A106C003EDA0B /* CombinePlaygroundApp.swift */,
-				DB8900772B6A106C003EDA0B /* RootView.swift */,
+				DBF90C762B842177009F233C /* View */,
+				DBF90C772B8421A1009F233C /* Model */,
 				DB8900792B6A106D003EDA0B /* Assets.xcassets */,
 				DB89007E2B6A106D003EDA0B /* CombinePlayground.entitlements */,
 				DB89007B2B6A106D003EDA0B /* Preview Content */,
@@ -100,6 +105,23 @@
 				DB8900872B6A106D003EDA0B /* CombinePlaygroundTests.swift */,
 			);
 			path = CombinePlaygroundTests;
+			sourceTree = "<group>";
+		};
+		DBF90C762B842177009F233C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB8900772B6A106C003EDA0B /* RootView.swift */,
+				DBF90C7A2B8425D9009F233C /* SubjectDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBF90C772B8421A1009F233C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBF90C782B8421D1009F233C /* MainSubject.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8900A12B6AA0EB003EDA0B /* AppDelegate.swift in Sources */,
+				DBF90C792B8421D1009F233C /* MainSubject.swift in Sources */,
+				DBF90C7B2B8425D9009F233C /* SubjectDetailView.swift in Sources */,
 				DB8900782B6A106C003EDA0B /* RootView.swift in Sources */,
 				DB8900762B6A106C003EDA0B /* CombinePlaygroundApp.swift in Sources */,
 			);

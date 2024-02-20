@@ -17,7 +17,6 @@ struct CombinePlaygroundApp: App {
     WindowGroup {
       RootView()
         .frame(idealWidth: rootWindowSize.width, idealHeight: rootWindowSize.height)
-        .fixedSize()
     }
     .windowStyle(HiddenTitleBarWindowStyle())
     .defaultSize(width: rootWindowSize.width, height: rootWindowSize.height)
